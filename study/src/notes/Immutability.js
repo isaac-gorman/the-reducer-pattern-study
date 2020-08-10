@@ -35,6 +35,14 @@
 
 // REDUX AND IMMUTABLITY
 // Q: Where are all state changes handled when using Redux?
-// -
+// - The State Tree 🌳
+// - The State Tree 🌳 is immutable and also reffred to as the store 🏪.
+// - The state tree is where all the state changes are explicity handled by dispatching actions.
+// - Dispatched actions are proccessed by a reducer that accepts the previous state and the action that returns the next state of the application. Think of this as sort of a little factory. Where everything is proceddes by the reducer that takes in the previous state and the the action that returns the state of the application.
+// - It is also easy to predict which action will be dispatched based on some event or interaction.
+// - The use of the state tree and understanding how state changes are handled by displatechd actions, is what leads to very predictable state managemnet.
 
 // Q: Why will it seem tedious to write immutable code at first?
+// - Becuase I will be builing very small apps with not much need for such code.
+// - The state trees 🌳 will be rather small for this sprint.
+// - Although when I start working with larger applications, with huge state trees, I will quicly grow to appriacte the wiriting of immutable code, and the extra effort it takes will seem worth very much worth it.
