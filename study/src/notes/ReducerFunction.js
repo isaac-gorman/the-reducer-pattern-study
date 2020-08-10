@@ -70,3 +70,5 @@ const reducer = (state) => {
 // - Payload is just the term for data property when you pass in addition to the action property.
 // - the payload property is merly an addition to the our action object.
 // - In order for the reducer to update the state correctly we need to pass in some data through the action object. The payload property will live in the action object.
+
+// As I will see in the following material, the action is associated with the property "type" and thus allowing me to use the reducer to preform conditional state transfomations
